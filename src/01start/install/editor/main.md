@@ -16,13 +16,13 @@
 
 VSC를 처음 실행하면 아래와 같은 창이 나올 겁니다.
 
-<img align="center" src="./editor_img/01vscode_start.png">
+<p align="center"> <img src="./01vscode_start.png"> </p>
 
 색이 조금 다를 수 있고, 왼쪽 사이드바에 버튼이 더 적겠지만 상관 없습니다. 만약 언어를 바꾸고 싶다면 [이 글](https://www.lainyzine.com/ko/article/how-to-change-language-setting-in-visual-studio-code/)을 참고해서 바꿔주세요.
 
 그러면, 왼쪽 바의 가장 위쪽 종이 2장이 그려진 버튼을 클릭해봅시다.
 
-<img align="center" src="./editor_img/02vscode_open_folder.png">
+<p align="center"> <img src="./02vscode_open_folder.png"> </p>
 
 그러면 폴더를 여는 버튼이 나옵니다. 이 버튼을 클릭해서 나중에 우리의 책이 저장되어 있는 폴더를 열어서 거기서 작업을 할 겁니다.
 
@@ -32,7 +32,7 @@ VSC의 가장 큰 장점 중 하나로, 커뮤니티가 매우 크게 활성화�
 
 확장 프로그램은 사이드바의 작은 정사각형 4개가 그려진 버튼을 클릭해서 관리할 수 있습니다. 아래 그림의 왼쪽 사이드바에서 강조된 버튼입니다.
 
-<img align="center" src="./editor_img/03vscode_ext.png">
+<p align="center"> <img src="./03vscode_ext.png"> </p>
 
 클릭하시면 상단에 *마켓플레이스에서 확장 검색*이라고 나오면서 확장 프로그램을 검색할 수 있는 창이 나옵니다. 이 창에 다음 확장프로그램을 검색해서 설치해줍시다.
 
@@ -53,7 +53,3 @@ VSC에서 Ctrl+Shift+P를 누르고 '설정'을 검색하면 `기본 설정: 설
 ## 기타 사용방법
 
 저희는 후에 직접 책을 만들어보면서 필요한 기능을 자연스럽게 배울 거지만, 프로그램 사용법을 더 깊이 알고 싶으시다면 인터넷에 튜토리얼이 널려 있으므로 구글링하시면 됩니다. 'visual studio code 사용법'을 검색하면 튜토리얼이 쏟아져 나옵니다. 그래도 잘 모르시겠다면 [이 글](https://demun.github.io/vscode-tutorial/)을 보시면 됩니다.
-
----
-
-이로써 여러분의 첫 마크다운 책을 만들기 위한 준비가 완료되었습니다! 다음 장에서부터 저희만의 책을 직접 만들어보면서 mdBook을 사용하는 방법을 익혀봅시다.

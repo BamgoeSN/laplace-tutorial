@@ -8,11 +8,11 @@ mdBook을 설치하는 방법은 [공식 가이드](https://rust-lang.github.io/
 
 [mdBook 릴리즈](https://github.com/rust-lang/mdBook/releases)에 들어가서 가장 최신 버전의 설치파일을 다운받으시면 됩니다. 윈도우를 사용하신다면 `mdbook-(버전명)-x86_64-pc-windows-msvc.zip`을 다운받으시면 됩니다.
 
-<img align="center" src="./install_img/01zip.png">
+<p align="center"> <img src="./01zip.png"> </p>
 
 다운받으신 압축파일을 열어보면 위와 같이 `mdBook.exe`라는 파일이 있을 겁니다. 이제, 내 컴퓨터를 열고 C 드라이브로 가셔서 `mdbook`이라는 이름의 폴더를 만들어주세요. 그리고, 그 폴더 안에 `bin`이라는 폴더를 만들어주세요. 그 bin 폴더 안에 압축파일에 들어 있던 `mdBook.exe`를 아래와 같이 넣어주세요.
 
-<img align="center" src="./install_img/02bin.png">
+<p align="center"> <img src="./02bin.png"> </p>
 
 ## 환경변수(PATH) 설정
 
@@ -20,27 +20,27 @@ mdBook을 설치하는 방법은 [공식 가이드](https://rust-lang.github.io/
 
 이제 *환경변수*라는 것을 설정할 겁니다. 환경변수를 설정하면, cmd창에서 mdBook을 어디서든 편리하게 실행할 수 있습니다. 컴퓨터 좌측 하단 시작 버튼을 눌러 `고급 시스템 설정`을 검색합니다.
 
-<img align="center" src="https://t1.daumcdn.net/cfile/tistory/99E984395D9475210A">
+<p align="center"> <img src="https://t1.daumcdn.net/cfile/tistory/99E984395D9475210A"> </p>
 
 `고급 시스템 설정 보기`를 클릭해 실행하면 아래와 같은 창이 나옵니다.
 
-<img align="center" src="https://t1.daumcdn.net/cfile/tistory/999C2E395D94752116">
+<p align="center"> <img src="https://t1.daumcdn.net/cfile/tistory/999C2E395D94752116"> </p>
 
 하단의 `환경 변수`를 클릭하면 아래와 같은 창이 나옵니다. 시스템 변수에서 변수명이 `PATH`인 항목을 찾아 편집을 클릭합니다.
 
-<img align="center" src="https://t1.daumcdn.net/cfile/tistory/99C7C6395D9475210B">
+<p align="center"> <img src="https://t1.daumcdn.net/cfile/tistory/99C7C6395D9475210B"> </p>
 
 그러면 아래와 같은 환경 변수 편집 창이 나옵니다. 우측의 `찾아보기`를 클릭합니다.
 
-<img align="center" src="https://t1.daumcdn.net/cfile/tistory/99F327395D94752233">
+<p align="center"> <img src="https://t1.daumcdn.net/cfile/tistory/99F327395D94752233"> </p>
 
 그러면 아래와 같이 폴더를 선택할 수 있는 창이 나옵니다. 아까 만들었던 `mdbook` 폴더를 선택해줍니다. 그 안에 있는 `bin`이 아닙니다.
 
-<img align="center" src="./install_img/03path.png">
+<p align="center"> <img src="./03path.png"> </p>
 
 그리고 모든 창에 확인을 눌러줘서 나오면 됩니다. 그리고 시작 버튼을 눌러 cmd를 입력해서 `명령 프롬프트`를 실행하고, `mdbook`을 입력하고 엔터를 누릅니다.
 
-<img align="center" src="./install_img/04cmd.png">
+<p align="center"> <img src="./04cmd.png"> </p>
 
 이때 위와 같이 무슨 문구가 막 나오면 성공입니다! 이제 여러분은 mdBook으로 책을 만들 준비가 되었습니다.
 
