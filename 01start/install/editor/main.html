@@ -10,19 +10,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
-        <link rel="icon" href="../favicon.svg">
-        <link rel="shortcut icon" href="../favicon.png">
-        <link rel="stylesheet" href="../css/variables.css">
-        <link rel="stylesheet" href="../css/general.css">
-        <link rel="stylesheet" href="../css/chrome.css">
-        <link rel="stylesheet" href="../css/print.css" media="print">
+        <link rel="icon" href="../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../favicon.png">
+        <link rel="stylesheet" href="../../../css/variables.css">
+        <link rel="stylesheet" href="../../../css/general.css">
+        <link rel="stylesheet" href="../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../css/print.css" media="print">
         <!-- Fonts -->
-        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="../fonts/fonts.css">
+        <link rel="stylesheet" href="../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../fonts/fonts.css">
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="../highlight.css">
-        <link rel="stylesheet" href="../tomorrow-night.css">
-        <link rel="stylesheet" href="../ayu-highlight.css">
+        <link rel="stylesheet" href="../../../highlight.css">
+        <link rel="stylesheet" href="../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         <!-- MathJax -->
@@ -31,7 +31,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "../";
+            var path_to_root = "../../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -77,7 +77,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../intro.html">소개</a></li><li class="chapter-item expanded affix "><li class="part-title">시작하기</li><li class="chapter-item expanded "><a href="../01start/mdintro.html"><strong aria-hidden="true">1.</strong> mdBook의 구성</a></li><li class="chapter-item expanded "><a href="../01start/install.html"><strong aria-hidden="true">2.</strong> mdBook 설치</a></li><li class="chapter-item expanded "><a href="../01start/editor.html" class="active"><strong aria-hidden="true">3.</strong> 에디터</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../../intro.html">소개</a></li><li class="chapter-item expanded affix "><li class="part-title">시작하기</li><li class="chapter-item expanded "><a href="../../../01start/mdintro/main.html"><strong aria-hidden="true">1.</strong> mdBook의 구성</a></li><li class="chapter-item expanded "><a href="../../../01start/install/main.html"><strong aria-hidden="true">2.</strong> 프로그램 설치</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../01start/install/mdinstall/main.html"><strong aria-hidden="true">2.1.</strong> mdBook 설치</a></li><li class="chapter-item expanded "><a href="../../../01start/install/editor/main.html" class="active"><strong aria-hidden="true">2.2.</strong> 에디터</a></li><li class="chapter-item expanded "><a href="../../../01start/git/main.html"><strong aria-hidden="true">2.3.</strong> git 설치</a></li></ol></li><li class="chapter-item expanded "><a href="../../../01start/terminal/main.html"><strong aria-hidden="true">3.</strong> 터미널이란</a></li><li class="chapter-item expanded affix "><li class="part-title">책 만들기</li><li class="chapter-item expanded "><a href="../../../02book/newbook/main.html"><strong aria-hidden="true">4.</strong> 새로운 책 만들기</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -109,7 +109,7 @@
                     <h1 class="menu-title">라플라스 클럽을 위한 mdBook 사용법</h1>
 
                     <div class="right-buttons">
-                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../../../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                     </div>
@@ -145,15 +145,15 @@
 <p><a href="https://code.visualstudio.com/">Visual Studio Code</a> 공식 사이트에 들어가 다운로드 버튼을 눌러서 설치하면 끝입니다.</p>
 <h2 id="기본-사용-방법"><a class="header" href="#기본-사용-방법">기본 사용 방법</a></h2>
 <p>VSC를 처음 실행하면 아래와 같은 창이 나올 겁니다.</p>
-<img align="center" src="./editor_img/01vscode_start.png">
+<p align="center"> <img src="./01vscode_start.png"> </p>
 <p>색이 조금 다를 수 있고, 왼쪽 사이드바에 버튼이 더 적겠지만 상관 없습니다. 만약 언어를 바꾸고 싶다면 <a href="https://www.lainyzine.com/ko/article/how-to-change-language-setting-in-visual-studio-code/">이 글</a>을 참고해서 바꿔주세요.</p>
 <p>그러면, 왼쪽 바의 가장 위쪽 종이 2장이 그려진 버튼을 클릭해봅시다.</p>
-<img align="center" src="./editor_img/02vscode_open_folder.png">
+<p align="center"> <img src="./02vscode_open_folder.png"> </p>
 <p>그러면 폴더를 여는 버튼이 나옵니다. 이 버튼을 클릭해서 나중에 우리의 책이 저장되어 있는 폴더를 열어서 거기서 작업을 할 겁니다.</p>
 <h2 id="확장-프로그램-설치"><a class="header" href="#확장-프로그램-설치">확장 프로그램 설치</a></h2>
 <p>VSC의 가장 큰 장점 중 하나로, 커뮤니티가 매우 크게 활성화되어 있어 유용한 확장 프로그램이 매우 많습니다. 확장 프로그램을 적절히 설치하면 VSC를 한결 편리하게 사용할 수 있습니다.</p>
 <p>확장 프로그램은 사이드바의 작은 정사각형 4개가 그려진 버튼을 클릭해서 관리할 수 있습니다. 아래 그림의 왼쪽 사이드바에서 강조된 버튼입니다.</p>
-<img align="center" src="./editor_img/03vscode_ext.png">
+<p align="center"> <img src="./03vscode_ext.png"> </p>
 <p>클릭하시면 상단에 <em>마켓플레이스에서 확장 검색</em>이라고 나오면서 확장 프로그램을 검색할 수 있는 창이 나옵니다. 이 창에 다음 확장프로그램을 검색해서 설치해줍시다.</p>
 <ul>
 <li>Better TOML: mdBook에 포함된 toml 파일을 관리하기 편하게 해줍니다.</li>
@@ -170,15 +170,16 @@
 <p>이로써 파일이 저장될 때마다 파일이 깔끔하게 정리되며, 이는 Prettier 확장 프로그램을 사용해서 이루어집니다.</p>
 <h2 id="기타-사용방법"><a class="header" href="#기타-사용방법">기타 사용방법</a></h2>
 <p>저희는 후에 직접 책을 만들어보면서 필요한 기능을 자연스럽게 배울 거지만, 프로그램 사용법을 더 깊이 알고 싶으시다면 인터넷에 튜토리얼이 널려 있으므로 구글링하시면 됩니다. 'visual studio code 사용법'을 검색하면 튜토리얼이 쏟아져 나옵니다. 그래도 잘 모르시겠다면 <a href="https://demun.github.io/vscode-tutorial/">이 글</a>을 보시면 됩니다.</p>
-<hr />
-<p>이로써 여러분의 첫 마크다운 책을 만들기 위한 준비가 완료되었습니다! 다음 장에서부터 저희만의 책을 직접 만들어보면서 mdBook을 사용하는 방법을 익혀봅시다.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../01start/install.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../../01start/install/mdinstall/main.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../../../01start/git/main.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
                     </nav>
@@ -186,8 +187,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../01start/install.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../../01start/install/mdinstall/main.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../../../01start/git/main.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
@@ -196,12 +200,12 @@
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
     </body>
