@@ -1,0 +1,9 @@
+[book]
+authors = ["BamgoeSN"]
+language = "ko"
+multilingual = false
+src = "src"
+title = "라플라스 클럽을 위한 mdBook 사용법"
+
+[output.html]
+mathjax-support = true
